@@ -52,11 +52,11 @@ inquirer
         photoBorderColor: "white"
       }
     };
-    // fetching data from the github api
+
     axios
       .get(queryUrl)
       .then(function ({ data }) {
-        // destructuring api data from call
+
         const { avatar_url, login, location, html_url, name, company, blog, bio, public_repos, public_gists, followers, following } = data;
         const html =
           `<!DOCTYPE html>
@@ -246,7 +246,7 @@ inquirer
                     </html>`
           ;
         var format = { format: 'Letter' };
-        // creating an HTML / PDF document
+
         pdf.create(html, format).toFile(`./html-pdf/${login}.pdf`, function (err, res) {
           if (err) return console.log(err);
 
