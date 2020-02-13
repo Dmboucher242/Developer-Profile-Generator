@@ -8,16 +8,16 @@ const questions = [
   {
     type: "input"
     , name: "username"
-    , message: "Please enter your GitHub username"
+    , message: "What is your GitHub username?"
   },
   {
     type: "list"
     , name: "color"
-    , message: "Which color would you like as the background?"
+    , message: "What is your favorite color?"
     , choices: [
       "green"
       , "blue"
-      , "pink"
+      , "yellow"
       , "red"
     ]
   }
