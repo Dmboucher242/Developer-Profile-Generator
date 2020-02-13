@@ -17,7 +17,7 @@ const questions = [
     , choices: [
       "green"
       , "blue"
-      , "yellow"
+      , "gray"
       , "red"
     ]
   }
@@ -39,11 +39,11 @@ inquirer
         headerColor: "white",
         photoBorderColor: "#73448C"
       },
-      pink: {
-        wrapperBackground: "#FFF0F5",
-        headerBackground: "#FFB6C1",
+      gray: {
+        wrapperBackground: "#DCDCDC",
+        headerBackground: "#A9A9A9",
         headerColor: "white",
-        photoBorderColor: "#FEE24C"
+        photoBorderColor: "#808080"
       },
       red: {
         wrapperBackground: "#800000",
