@@ -20,7 +20,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "inquirer": "^7.0.4",
     "open": "^7.0.2",
     "pdf": "^0.1.0"
